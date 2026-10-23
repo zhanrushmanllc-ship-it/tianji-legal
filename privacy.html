@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tianji — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { margin: 0 auto; padding: 2.5rem 1.25rem 4rem; max-width: 44rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         color: #1c1c1e; background: #fff; }
+  h1 { font-size: 1.9rem; letter-spacing: -0.02em; margin: 0 0 .25rem; }
+  h2 { font-size: 1.05rem; letter-spacing: .04em; margin: 2.25rem 0 .5rem; }
+  h3 { font-size: 1rem; margin: 1.75rem 0 .35rem; }
+  p, li { color: #2c2c2e; }
+  .eff, .lede { color: #6b6b70; }
+  .lede { font-size: 1.05rem; margin: .25rem 0 2rem; }
+  .eff { font-size: .9rem; margin-top: 0; }
+  ul { padding-left: 1.15rem; }
+  li { margin: .35rem 0; }
+  a { color: #0b63ce; }
+  nav { margin: 0 0 2rem; font-size: .9rem; }
+  nav a { margin-right: 1rem; }
+  .card { border: 1px solid #e3e3e6; border-radius: 12px; padding: 1rem 1.25rem; margin: 1.5rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid #e3e3e6;
+           color: #6b6b70; font-size: .875rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; background: #111113; }
+    p, li { color: #d8d8de; }
+    .eff, .lede, footer { color: #98989f; }
+    a { color: #6aa9f0; }
+    footer, .card { border-color: #2c2c2f; }
+  }
+</style>
+</head>
+<body>
+<nav><a href="./">Support</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav>
+<h1>Tianji — Privacy Policy</h1>
+<p class="eff">Effective date: October 22, 2026</p>
+<p>Zhan Rushman LLC (&quot;Zhan Rushman,&quot; &quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) publishes Tianji (the &quot;App&quot;). This Privacy Policy explains what information the App handles, where it goes, and the choices you have. Where we rely on your consent — as we do for sending chart details to be written up by a third-party AI service, and for usage statistics in Europe — the App asks you first, and you can withdraw that consent at any time in Settings.</p>
+
+<div class="card">
+<p><strong>In short.</strong> Your birth details, your journal and your voice stay on your iPhone. If you allow it, the chart worked out from your birth details (never the birth details themselves) is sent to OpenRouter so that readings can be written for you. If you allow it — or, outside Europe, unless you switch it off — the App sends usage statistics to Google Analytics for Firebase. There is no Tianji account and no Tianji server.</p>
+</div>
+
+<h2>1. INFORMATION THE APP HANDLES</h2>
+<h3>Your birth details</h3>
+<p>To calculate your chart, the App asks for your date of birth, your time of birth (or that you are not sure of it), your place of birth, and the direction your chart is counted in (which the App asks as a sex, for the chart only). These are stored on your device. <strong>They are never sent to us, to our AI provider, or to our analytics provider.</strong></p>
+<p>To find your place of birth, the place name you type is sent to Apple&#x27;s map search (MapKit), which returns matching places and their time zone. Apple handles that search under its own privacy policy (<a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>). The App does not use Location Services for this.</p>
+
+<h3>Your journal and readings</h3>
+<p>The notes, moods and outcomes you write in the journal, the readings you keep, and your follow-up conversations are stored on your device. None of this is sent to us. The journal is never sent anywhere; what is sent for a follow-up conversation is described next.</p>
+
+<h3>Readings written for you (third-party AI)</h3>
+<p>Some readings — the passages marked <em>Written for you</em>, the Immortal&#x27;s line, and the replies when you ask a question in your own words — are written by large language models (artificial intelligence) run by third parties. To write them, the App sends over an encrypted connection, directly from your device, to our AI infrastructure provider, OpenRouter, Inc. (United States), which routes the request to the provider hosting the model that writes the response:</p>
+<ul>
+<li>your <strong>derived chart</strong> — the stems and branches, stars, ten gods and favourable element worked out from your birth details, and whether your birth time is approximate;</li>
+<li>the <strong>day&#x27;s facts</strong> from the calendar, the reviewed text being written about, and the subject you chose (one of a fixed list);</li>
+<li>when you ask in your own words in a follow-up conversation, <strong>what you type</strong> and the last few messages of that conversation.</li>
+</ul>
+<p>At the time of writing, the model that writes these is DeepSeek&#x27;s, with Google&#x27;s Gemini and OpenAI&#x27;s open-weight gpt-oss models as fallbacks, hosted by providers OpenRouter selects. Every request carries OpenRouter&#x27;s &quot;deny data collection&quot; setting, which refuses providers that would retain the request or train on it. We do not send your birth date, time or place, your journal, your voice, your name, your email, or any device identifier. Like any internet service, OpenRouter receives the network (IP) address the request comes from, because the App connects to it directly.</p>
+<p><strong>We ask before anything is sent.</strong> The App shows a consent screen, with &quot;Allow&quot; and &quot;Don&#x27;t allow&quot; drawn alike, that names OpenRouter and its model providers and says exactly what is and is not sent. Nothing is sent until you choose &quot;Allow&quot;. If you don&#x27;t, those readings keep the reviewed texts that come with the App, and questions in your own words go unanswered. You can change this at any time under Settings &rarr; Your data (&quot;Readings written by a third party&quot;); switching it off stops the next request. Updating the App never turns this on by itself.</p>
+
+<h3>Your voice</h3>
+<p>If you hold to speak a question, the App uses the microphone and Apple&#x27;s speech recognition to turn what you say into text. The App explains this before iOS asks for either permission. Recognition runs <strong>on your iPhone only</strong>: the App requires on-device recognition, never sends the audio anywhere, and keeps no recording. Where your iPhone can&#x27;t recognise your language on its own, the App does not offer speaking at all; you can still use the keyboard&#x27;s dictation key, which is Apple&#x27;s and works under Apple&#x27;s terms.</p>
+
+<h3>Motion and location</h3>
+<p>The App uses motion to feel you shake the bamboo cylinder when you draw a stick. In the feng shui compass, it uses your location only to point the compass at true north. Both are used on your device at that moment and are never stored or sent.</p>
+
+<h3>Purchases</h3>
+<p>The Plus subscription and the one-time purchases are processed entirely by Apple through the App Store and StoreKit. We receive confirmation that a purchase was made and its status, but never your payment details.</p>
+
+<h3>Notifications</h3>
+<p>Reminders and notices are scheduled locally on your device using Apple&#x27;s notification system and are never transmitted to us or anyone else.</p>
+
+<h3>Usage statistics</h3>
+<p>The App uses Google Analytics for Firebase to understand how it is used — which screens are opened, which features are used and how often, whether something succeeded or failed — so we can see what works and what doesn&#x27;t. Where it is running, Firebase also records the app version, your device model and iOS version, an identifier it creates for your installation of the App, and in-app purchase events (which product, and its price) that Firebase measures through StoreKit; Google estimates your country and region from your IP address. <strong>Usage statistics never include your birth details, anything you type, your journal, or the words of any reading.</strong> They carry only names and values from a fixed list defined in the App, and counts.</p>
+<p><strong>If you are in the European Economic Area, the United Kingdom or Switzerland, this is off until you agree.</strong> The App asks you once, with &quot;Allow&quot; and &quot;Don&#x27;t allow&quot; drawn alike, and until you allow it Firebase is not even started — nothing is stored on your device for statistics and nothing is sent to Google. Declining costs you no features. We decide which devices to ask from the region and time zone your device reports, and we err towards asking.</p>
+<p><strong>Elsewhere, usage statistics are on by default</strong>, and you can switch them off at any time under Settings &rarr; Your data (&quot;Usage statistics&quot;). Wherever you are, switching it off stops collection and deletes the analytics identifier and any events still held on your device; a refusal is remembered if you later travel or change your device region. Updating the App never turns this on by itself where consent is required.</p>
+<p>The App does not use the Apple advertising identifier (IDFA), does no advertising or ad measurement, and does not track you across other apps or websites. Google processes this information as our service provider; see <a href="https://firebase.google.com/support/privacy">Google&#x27;s Firebase privacy documentation</a>.</p>
+
+<h3>Reports and exports</h3>
+<p>If you report a reading as inaccurate, the report is kept on your device; this version of the App does not send it anywhere. If you export your data, the App creates a file and hands it to the app you choose; nothing is uploaded by the App.</p>
+
+<h2>2. HOW THE APP WORKS</h2>
+<p>Tianji has no account and does not operate a server for your data. Your chart, journal and readings live on your device (and in your device&#x27;s own backups, such as iCloud Backup, if you use them, under Apple&#x27;s terms). Information leaves your device in only three cases: the place name you search for, to Apple; your derived chart and, in a follow-up conversation, what you type, to our AI provider — only if you allow it; and usage statistics, to Google — only if you allow them, or outside Europe unless you switch them off.</p>
+
+<h2>3. HOW WE USE INFORMATION</h2>
+<p>Chart details and what you type are used solely to write the reading or reply you asked for. We do not use them for advertising, to build a profile of you, or to train AI models, and we do not sell them. OpenRouter and the model providers it routes to process the request solely to return a response, as our service providers; see <a href="https://openrouter.ai/privacy">OpenRouter&#x27;s privacy policy</a>.</p>
+<p>We use usage statistics only to understand how the App is used in aggregate, to find features that are broken or confusing, and to decide what to improve. We do not use them for advertising or to build a marketing profile of you.</p>
+
+<h2>4. SHARING OF INFORMATION</h2>
+<p>We share information only as follows:</p>
+<ul>
+<li>With OpenRouter and the AI model providers it routes to (at the time of writing DeepSeek, Google and providers hosting OpenAI&#x27;s open-weight models), solely to write the reading or reply you asked for, and only after you have agreed in the App.</li>
+<li>With Apple, to search for your place of birth, and to process purchases.</li>
+<li>With Google, as the provider of Firebase Analytics, for the usage statistics described in Section 1 — which never include your birth details, what you type, or your journal, and which require your prior agreement in the EEA, the UK and Switzerland.</li>
+<li>If required to do so by law, or to protect the rights, safety, or property of Zhan Rushman LLC, our users, or the public.</li>
+</ul>
+<p>We do not sell your personal information, and we do not share it for cross-context behavioral advertising.</p>
+
+<h2>5. DATA RETENTION AND YOUR CHOICES</h2>
+<p>Everything the App stores stays on your device until you delete it. You can:</p>
+<ul>
+<li>Delete everything under Settings &rarr; Your data &rarr; Delete everything, which removes your chart, journal, day count, saved readings and everything cached from them, and resets every consent, so you are asked again.</li>
+<li>Export your data first, under Settings &rarr; Your data &rarr; Export my data.</li>
+<li>Switch readings written by a third party, or usage statistics, on or off under Settings &rarr; Your data.</li>
+<li>Turn the microphone, speech recognition, location or notifications off at any time in iOS Settings.</li>
+</ul>
+<p>Requests sent to write a reading are not retained by OpenRouter&#x27;s providers beyond what is needed to answer them, because every request refuses providers that retain data.</p>
+<p>Where usage statistics are running, Google retains those events for up to 14 months from collection. They contain no name, email or account identifier — only the identifier created for your installation — so we cannot look you up in them, though they remain personal data under the GDPR because that identifier singles out a device. To ask us to delete statistics already collected, contact us at <a href="mailto:zhanrushmanllc@gmail.com">zhanrushmanllc@gmail.com</a> and we will make the request to Google on your behalf.</p>
+
+<h2>6. YOUR PRIVACY RIGHTS</h2>
+<p>Depending on where you live, you may have rights to access, correct, delete, or receive a copy of your personal information, and to object to or restrict certain processing. Because your data is stored on your own device rather than on our servers, you can exercise most of these rights directly in the App (see Section 5). For anything you can&#x27;t do yourself in the App, contact us at <a href="mailto:zhanrushmanllc@gmail.com">zhanrushmanllc@gmail.com</a> and we&#x27;ll respond within a reasonable time.</p>
+<p>California residents: we do not sell or share personal information as defined by the California Consumer Privacy Act, and we do not use or disclose sensitive personal information for purposes other than providing the App&#x27;s features.</p>
+<p>European/UK residents: where the GDPR or UK GDPR applies, our legal basis for sending your derived chart and what you type to our AI provider is your consent, given on the screen described in Section 1 and withdrawable at any time under Settings &rarr; Your data. Our legal basis for usage statistics is your consent alone; until it is given, the App stores nothing on your device for statistics and sends nothing to Google. The birthplace search is carried out because you ask for it, to provide the feature you are using. If you are in the EEA, the UK or Switzerland and the App did not ask you — for example because your device reports a region and time zone outside those areas — switch <em>Usage statistics</em> off under Settings &rarr; Your data, or email us and we will have the data deleted.</p>
+
+<h2>7. CHILDREN&#x27;S PRIVACY</h2>
+<p>Tianji is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, contact us at <a href="mailto:zhanrushmanllc@gmail.com">zhanrushmanllc@gmail.com</a> and we will take appropriate steps to remove it.</p>
+
+<h2>8. INTERNATIONAL DATA TRANSFERS</h2>
+<p>Our AI provider and the model providers it routes to may process requests on servers outside your country, including in the United States. Usage statistics are likewise processed on Google servers, including in the United States; Google LLC is certified under the EU&ndash;U.S. Data Privacy Framework and its UK and Swiss extensions, which is the transfer mechanism we rely on.</p>
+
+<h2>9. SECURITY</h2>
+<p>We rely on Apple&#x27;s platform security (device encryption and Keychain) to protect data stored on your device, and on encrypted connections (HTTPS/TLS) for every request the App sends. No method of transmission or storage is 100% secure, and we can&#x27;t guarantee absolute security.</p>
+
+<h2>10. CHANGES TO THIS POLICY</h2>
+<p>We may update this Privacy Policy as the App evolves. If we make material changes, we&#x27;ll update the effective date above and, where appropriate, tell you in the App. A change that would send something new from your device is asked about in the App before it happens.</p>
+
+<h2>11. CONTACT US</h2>
+<p>Zhan Rushman LLC — Email: <a href="mailto:zhanrushmanllc@gmail.com">zhanrushmanllc@gmail.com</a></p>
+<p>This policy is hosted on GitHub Pages; GitHub receives your IP address when you open it.</p>
+<footer>Tianji is published by Zhan Rushman LLC. Contact:
+<a href="mailto:zhanrushmanllc@gmail.com">zhanrushmanllc@gmail.com</a>.</footer>
+</body>
+</html>
